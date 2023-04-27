@@ -1,0 +1,21 @@
+[submodule "MX_V2"]
+	path = MX_V2
+	url = https://github.com/ai03-2725/MX_V2.git
+[submodule "random-keyboard-parts.pretty"]
+	path = random-keyboard-parts.pretty
+	url = https://github.com/ai03-2725/random-keyboard-parts.pretty.git
+[submodule "MX_Alps_Hybrid"]
+	path = MX_Alps_Hybrid
+	url = https://github.com/ai03-2725/MX_Alps_Hybrid.git
+[submodule "KiCad-SSD1306-128x64"]
+	path = KiCad-SSD1306-128x64
+	url = https://github.com/pforrmi/KiCad-SSD1306-128x64.git
+[submodule "Keebio-Parts.pretty"]
+	path = Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty.git
+[submodule "keebio-components"]
+	path = keebio-components
+	url = https://github.com/keebio/keebio-components.git
+[submodule "kicad-library-WeAct-RP2040-Pico"]
+	path = kicad-library-WeAct-RP2040-Pico
+	url = https://github.com/Kriechi/kicad-library-WeAct-RP2040-Pico.git
