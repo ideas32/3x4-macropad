@@ -38,3 +38,24 @@ A 3x4 hotswap macropad with per-key rgb, rgb underglow, an oled, and an encoder.
     -   maybe gasket mount?
     -   UDB support if mcu is moved to pcb instead of breakout?
     -   
+
+
+
+
+
+Measurements:
+- bottom:
+    - walls are 8.0mm bottom, 8.3mm right, 8.2mm left, 8.1mm top
+    - inner width 84.3mm, length 80.4mm
+    - gap is 21.1mm wide
+    - floor is 4.4mm thick
+    - stand is 84.8mm wide, 81.1mm long
+    - standoff hole diameter 2.7mm
+    - screw head hole diameter 3.6mm-3.8mm
+    - screw hole diameter couldn't be measured accurately, but is way too small
+    - idk which type of hole this is but bottom of hat hole 2.2mm
+    - hat thickness 6.0mm
+    - plate thickness 1.6mm
+    - mx cutout diagonal 18.6mm, length 13.3mm
+    - mx spacing 5.8mm, 1u 19.1mm, actual 1u 19.05mm
+    - 
