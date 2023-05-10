@@ -7,4 +7,5 @@
   (lib (name "MX_Hotswap")(type "KiCad")(uri "${KIPRJMOD}/libraries/MX_V2/MX_Hotswap.pretty")(options "")(descr ""))
   (lib (name "random-keyboard-parts")(type "KiCad")(uri "${KIPRJMOD}/libraries/random-keyboard-parts.pretty")(options "")(descr ""))
   (lib (name "SK6812MINI-E")(type "KiCad")(uri "${KIPRJMOD}/libraries/SK6812MINI-E/KiCad")(options "")(descr ""))
+  (lib (name "RP2040_minimal")(type "KiCad")(uri "${KIPRJMOD}/RP2040_minimal/RP2040_minimal.pretty")(options "")(descr ""))
 )
