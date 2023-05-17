@@ -8,7 +8,7 @@ A 3x4 hotswap macropad with per-key rgb, rgb underglow, an oled, and an encoder.
 - uses a [WeAct Studio Pi Pico](https://www.aliexpress.us/item/3256803521775546.html?spm=a2g0o.productlist.main.21.2b183894Ed1md6&algo_pvid=a2d29449-dd97-4924-b1b0-dca670c23c11&algo_exp_id=a2d29449-dd97-4924-b1b0-dca670c23c11-10&pdp_npi=3%40dis%21USD%214.08%213.96%21%21%21%21%21%40212272e216815772675866023d071b%2112000026898823783%21sea%21US%214210481755&curPageLogUid=xUKSE3v0SzRr) as the microcontroller 
 - support for a single 128x32 OLED placed above the microcontroller
 - support for a single Alps EC11 rotary encoder
-- support for addresable per-key rgb (SK6812 MINI-E)
+- support for addresable per-key rgb (SK6812 MINI-E) 
 - support for addresable rgb underglow (WS2812b or equivilant)
 
 ## To Do:
@@ -24,13 +24,14 @@ A 3x4 hotswap macropad with per-key rgb, rgb underglow, an oled, and an encoder.
 **DO NOT USE**
     Still has many bugs, and will not physically fit the pcb with components soldered
 - Bugfixes:
-    -   increase m2 standoff diameter
-    -   increase m2 screw diameter
-    -   change m2 stackup to allow for looser tolerances
-    -   increase usb cutout size vertically
-    -   increase switch cutout size
-    -   decrease plate height from 1.6mm to 1.5mm
-    -   divide bottom into 2 parts for better printing results
+    -   increase m2 standoff diameter (done)
+    -   increase m2 screw diameter (done)
+    -   change m2 stackup to allow for looser tolerances (done)
+    -   increase usb cutout size vertically (done)
+    -   increase switch cutout size (done)
+    -   divide bottom into 2 parts for better printing results (done)
+    -   increase microcontroller cutout (done)
+    -   add oled cutout (done)
 - Future Plans:
     -   add stacked acrylic version?
     -   top/burger mount instead of sandwich mount?
