@@ -1,60 +1,34 @@
 # 3x4 macropad
 A 3x4 hotswap macropad with per-key rgb, rgb underglow, an oled, and an encoder. Uses the Weact Pi Pico as the microcontroller.
-**STILL IN ALPHA, NOT READY FOR USE**
 ## Features:
 - 3x4 array of south-facing MX switches
 - hotswap (kailh sockets or equivilant)
-- through-hole and surface mount diode (SOD-123) compatible
-- uses a [WeAct Studio Pi Pico](https://www.aliexpress.us/item/3256803521775546.html?spm=a2g0o.productlist.main.21.2b183894Ed1md6&algo_pvid=a2d29449-dd97-4924-b1b0-dca670c23c11&algo_exp_id=a2d29449-dd97-4924-b1b0-dca670c23c11-10&pdp_npi=3%40dis%21USD%214.08%213.96%21%21%21%21%21%40212272e216815772675866023d071b%2112000026898823783%21sea%21US%214210481755&curPageLogUid=xUKSE3v0SzRr) as the microcontroller 
+- gasket mount
 - support for a single 128x32 OLED placed above the microcontroller
 - support for a single Alps EC11 rotary encoder
 - support for addresable per-key rgb (SK6812 MINI-E) 
-- support for addresable rgb underglow (WS2812b or equivilant)
+- support for addresable rgb underglow (WS2812b)
+- through-hole and surface mount diode compatible
+- uses a [WeAct Studio Pi Pico](https://www.aliexpress.us/item/3256803521775546.html?spm=a2g0o.productlist.main.21.2b183894Ed1md6&algo_pvid=a2d29449-dd97-4924-b1b0-dca670c23c11&algo_exp_id=a2d29449-dd97-4924-b1b0-dca670c23c11-10&pdp_npi=3%40dis%21USD%214.08%213.96%21%21%21%21%21%40212272e216815772675866023d071b%2112000026898823783%21sea%21US%214210481755&curPageLogUid=xUKSE3v0SzRr) as the microcontroller 
 
-## To Do:
-### PCB:
-**DO NOT USE**
-    Has been tested now, but is still not ready for use
-- Bugfixes:
-    -   Accidentally messed up per-key rgb and turned it into underglow,accidentally fixed it too (I dunno what happened)
-- Future Plans:
-    -   change breakout to pro micro footprint **or** add onboard mcu
-        - if changing to onboard mcu add support for UDB S1
-### Case:
-**DO NOT USE**
-    Still has many bugs, and will not physically fit the pcb with components soldered
-- Bugfixes:
-    -   increase m2 standoff diameter (done)
-    -   increase m2 screw diameter (done)
-    -   change m2 stackup to allow for looser tolerances (done)
-    -   increase usb cutout size vertically (done)
-    -   increase switch cutout size (done)
-    -   divide bottom into 2 parts for better printing results (done)
-    -   increase microcontroller cutout (done)
-    -   add oled cutout (done)
-- Future Plans:
-    -   add stacked acrylic version?
-    -   top/burger mount instead of sandwich mount?
-    -   maybe gasket mount?
-    -   UDB support if mcu is moved to pcb instead of breakout?
+## Parts List
+- 1x Weact Pi Pico
+- 1x Alps EC11 encoder
+- 12x Kailh or equivilant hotswap sockets
+- 14x 1n4148 signal diodes (smt or tht)
+- 20x M2x3mm screws
+- 10x M2x4mm female-female standoffs
+- 12x MX-style switches
+- 12x MX-style keycaps
+- 1x Alps EC11 encoder knob
+- 1x PCB
+- 1x Plate
+- 1x Case Top (requires 3d printer)
+- 1x Case Bottom (requires 3d printer)
+- 1x 4-6mm thick sheet of foam to make gaskets OR gaskets around 4mm wide by 80mm long by 4-6mm high
+- 12x SK6812 Mini-E LEDs (optional)
+- 4x WS2812B LEDs (optional)
+- 2x 4k7 resistors (only if using OLED)
+- 1x SSD1306 128x32 OLED (optional)
 
-
-
-
-
-Measurements:
-- bottom:
-    - walls are 8.0mm bottom, 8.3mm right, 8.2mm left, 8.1mm top
-    - inner width 84.3mm, length 80.4mm
-    - gap is 21.1mm wide
-    - floor is 4.4mm thick
-    - stand is 84.8mm wide, 81.1mm long
-    - standoff hole diameter 2.7mm
-    - screw head hole diameter 3.6mm-3.8mm
-    - screw hole diameter couldn't be measured accurately, but is way too small
-    - idk which type of hole this is but bottom of hat hole 2.2mm
-    - hat thickness 6.0mm
-    - plate thickness 1.6mm
-    - mx cutout diagonal 18.6mm, length 13.3mm
-    - mx spacing 5.8mm, 1u 19.1mm, actual 1u 19.05mm
-    - 
+Total cost excluding filament from Aliexpress and JLCPCB: 
