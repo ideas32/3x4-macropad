@@ -28,6 +28,4 @@
     (stroke (width 0.05) (type default)) (layer "Edge.Cuts") (tstamp 2716727d-4d21-4496-9073-8fdab031cd7c))
   (fp_arc (start 7 6.7) (mid 6.912132 6.912132) (end 6.7 7)
     (stroke (width 0.05) (type default)) (layer "Edge.Cuts") (tstamp 2d271828-0b54-4f51-9e5d-3b3046eec746))
-  (pad "1" smd roundrect (at 0 0) (size 16 16) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.01875) (tstamp f9eb9053-bc34-42c0-8753-5e3a6e7bc7e6))
-  (pad "1" smd roundrect (at 0 0) (size 16 16) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.01875) (tstamp b425c747-817d-4a1c-be00-0978166ace20))
 )
